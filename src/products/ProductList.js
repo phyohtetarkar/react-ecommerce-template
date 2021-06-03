@@ -3,6 +3,7 @@ import Product from "./Product";
 import ProductH from "./ProductH";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ScrollToTopOnMount from "../template/ScrollToTopOnMount";
 
 const categories = [
   "All Products",
@@ -21,6 +22,7 @@ function FilterMenuLeft() {
   return (
     <ul className="list-group list-group-flush rounded">
       <li className="list-group-item d-none d-lg-block">
+        <h5 className="mt-1 mb-2">Browse</h5>
         <div className="d-flex flex-wrap my-2">
           {categories.map((v, i) => {
             return (
@@ -28,6 +30,7 @@ function FilterMenuLeft() {
                 key={i}
                 to="/products"
                 className="btn btn-sm btn-outline-dark rounded-pill me-2 mb-2"
+                replace
               >
                 {v}
               </Link>
@@ -104,6 +107,7 @@ function ProductList() {
 
   return (
     <div className="container mt-5 py-4 px-xl-5">
+      <ScrollToTopOnMount />
       <nav aria-label="breadcrumb" className="bg-custom-light rounded">
         <ol className="breadcrumb p-3 mb-0">
           <li className="breadcrumb-item">
@@ -199,7 +203,7 @@ function ProductList() {
                     aria-label="search input"
                   />
                   <button className="btn btn-outline-dark">
-                    <FontAwesomeIcon icon={['fas', 'search']} />
+                    <FontAwesomeIcon icon={["fas", "search"]} />
                   </button>
                 </div>
                 <button

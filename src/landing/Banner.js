@@ -1,6 +1,6 @@
-import BannerZero from './banner-0.jpg';
-import BannerOne from './banner-1.jpg';
-import BannerTwo from './banner-2.jpg';
+import BannerZero from "./banner-0.jpg";
+import BannerOne from "./banner-1.jpg";
+import BannerTwo from "./banner-2.jpg";
 
 function BannerIncidator(props) {
   return (
@@ -16,11 +16,21 @@ function BannerIncidator(props) {
 
 function BannerImage(props) {
   return (
-    <div className={"carousel-item " + (props.active ? "active" : "")} data-bs-interval="5000">
-      <div className="ratio" style={{"--bs-aspect-ratio": "50%", maxHeight: "460px"}}>
-        <img className="d-block w-100 h-100 bg-dark cover" alt="" src={props.image} />
+    <div
+      className={"carousel-item " + (props.active ? "active" : "")}
+      data-bs-interval="5000"
+    >
+      <div
+        className="ratio"
+        style={{ "--bs-aspect-ratio": "50%", maxHeight: "460px" }}
+      >
+        <img
+          className="d-block w-100 h-100 bg-dark cover"
+          alt=""
+          src={props.image}
+        />
       </div>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-none d-lg-block">
         <h5>Banner Header</h5>
         <p>Some representative placeholder content for the banner.</p>
       </div>
@@ -34,7 +44,7 @@ function Banner() {
       id="bannerIndicators"
       className="carousel slide"
       data-bs-ride="carousel"
-      style={{marginTop: "56px"}}
+      style={{ marginTop: "56px" }}
     >
       <div className="carousel-indicators">
         <BannerIncidator index="0" active={true} />
@@ -44,7 +54,7 @@ function Banner() {
       <div className="carousel-inner">
         <BannerImage image={BannerZero} active={true} />
         <BannerImage image={BannerOne} />
-        <BannerImage image={BannerTwo}/>
+        <BannerImage image={BannerTwo} />
       </div>
     </div>
   );
