@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-ecommerce-template/static/css/main.66e04065.chunk.css",
-    "main.js": "/react-ecommerce-template/static/js/main.53e2dcd5.chunk.js",
-    "main.js.map": "/react-ecommerce-template/static/js/main.53e2dcd5.chunk.js.map",
+    "main.js": "/react-ecommerce-template/static/js/main.e061e490.chunk.js",
+    "main.js.map": "/react-ecommerce-template/static/js/main.e061e490.chunk.js.map",
     "runtime-main.js": "/react-ecommerce-template/static/js/runtime-main.1e80fde5.js",
     "runtime-main.js.map": "/react-ecommerce-template/static/js/runtime-main.1e80fde5.js.map",
-    "static/js/2.eb22ee86.chunk.js": "/react-ecommerce-template/static/js/2.eb22ee86.chunk.js",
-    "static/js/2.eb22ee86.chunk.js.map": "/react-ecommerce-template/static/js/2.eb22ee86.chunk.js.map",
+    "static/js/2.cbfce85b.chunk.js": "/react-ecommerce-template/static/js/2.cbfce85b.chunk.js",
+    "static/js/2.cbfce85b.chunk.js.map": "/react-ecommerce-template/static/js/2.cbfce85b.chunk.js.map",
     "index.html": "/react-ecommerce-template/index.html",
     "static/css/main.66e04065.chunk.css.map": "/react-ecommerce-template/static/css/main.66e04065.chunk.css.map",
-    "static/js/2.eb22ee86.chunk.js.LICENSE.txt": "/react-ecommerce-template/static/js/2.eb22ee86.chunk.js.LICENSE.txt",
+    "static/js/2.cbfce85b.chunk.js.LICENSE.txt": "/react-ecommerce-template/static/js/2.cbfce85b.chunk.js.LICENSE.txt",
     "static/media/banner-0.83a86819.jpg": "/react-ecommerce-template/static/media/banner-0.83a86819.jpg",
     "static/media/banner-1.1f5bb6ba.jpg": "/react-ecommerce-template/static/media/banner-1.1f5bb6ba.jpg",
     "static/media/banner-2.e792fe61.jpg": "/react-ecommerce-template/static/media/banner-2.e792fe61.jpg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e80fde5.js",
-    "static/js/2.eb22ee86.chunk.js",
+    "static/js/2.cbfce85b.chunk.js",
     "static/css/main.66e04065.chunk.css",
-    "static/js/main.53e2dcd5.chunk.js"
+    "static/js/main.e061e490.chunk.js"
   ]
 }
